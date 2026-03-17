@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "654253936390",
+    "project_id": "unicalendar-b1e96",
+    "storage_bucket": "unicalendar-b1e96.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654253936390:android:cce2620e28d6448fd41887",
+        "android_client_info": {
+          "package_name": "com.example.uni_calendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654253936390-tpd9rqugq8o9m1lh0j3ohdfsmr2pvcqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRKQFyN_Cs3eqtroKEIL-QMu6E7_MemSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654253936390-tpd9rqugq8o9m1lh0j3ohdfsmr2pvcqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
