@@ -186,7 +186,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                 child: Ink(
                                   decoration: BoxDecoration(
                                     gradient: const LinearGradient(
-                                      colors: [Color(0xFF00C853), Color(0xFF64DD17)],
+                                      colors: [Color.fromARGB(255, 49, 35, 175), Color.fromARGB(255, 32, 116, 172)],
                                     ),
                                     borderRadius: BorderRadius.circular(15),
                                   ),
