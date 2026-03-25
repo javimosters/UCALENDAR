@@ -3,6 +3,9 @@ import 'main_scaffold.dart';
 import 'tareas_page.dart';
 import 'calendario_page.dart';
 import 'perfil_page.dart';
+import 'avisos_page.dart';
+import 'progreso_page.dart';
+import 'ajustes_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -218,19 +221,19 @@ class HomePage extends StatelessWidget {
         icon: Icons.notifications_rounded,
         label: 'Avisos',
         color: Colors.orange,
-        onTap: () {},
+        onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const AvisosPage())),
       ),
       _AccesoItem(
         icon: Icons.bar_chart_rounded,
         label: 'Progreso',
         color: Colors.green,
-        onTap: () {},
+        onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const ProgresoPage())),
       ),
       _AccesoItem(
         icon: Icons.settings_rounded,
         label: 'Ajustes',
         color: Colors.grey,
-        onTap: () {},
+        onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const AjustesPage())),
       ),
     ];
 
