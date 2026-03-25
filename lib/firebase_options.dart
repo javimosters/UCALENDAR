@@ -46,7 +46,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '654253936390',
     projectId: 'unicalendar-b1e96',
     authDomain: 'unicalendar-b1e96.firebaseapp.com',
-    storageBucket: 'unicalendar-b1e96.firebasestorage.app',
+    storageBucket: 'unicalendar-b1e96.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
@@ -54,7 +54,7 @@ class DefaultFirebaseOptions {
     appId: '1:654253936390:android:cce2620e28d6448fd41887',
     messagingSenderId: '654253936390',
     projectId: 'unicalendar-b1e96',
-    storageBucket: 'unicalendar-b1e96.firebasestorage.app',
+    storageBucket: 'unicalendar-b1e96.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
@@ -62,7 +62,7 @@ class DefaultFirebaseOptions {
     appId: '1:654253936390:ios:133e07c2e11a3aefd41887',
     messagingSenderId: '654253936390',
     projectId: 'unicalendar-b1e96',
-    storageBucket: 'unicalendar-b1e96.firebasestorage.app',
+    storageBucket: 'unicalendar-b1e96.appspot.com',
     iosClientId: '654253936390-2q4ncajcv7r9i9n17d8t125ftmh2ijcv.apps.googleusercontent.com',
     iosBundleId: 'com.example.uniCalendar',
   );
@@ -72,7 +72,7 @@ class DefaultFirebaseOptions {
     appId: '1:654253936390:ios:133e07c2e11a3aefd41887',
     messagingSenderId: '654253936390',
     projectId: 'unicalendar-b1e96',
-    storageBucket: 'unicalendar-b1e96.firebasestorage.app',
+    storageBucket: 'unicalendar-b1e96.appspot.com',
     iosClientId: '654253936390-2q4ncajcv7r9i9n17d8t125ftmh2ijcv.apps.googleusercontent.com',
     iosBundleId: 'com.example.uniCalendar',
   );
@@ -83,6 +83,6 @@ class DefaultFirebaseOptions {
     messagingSenderId: '654253936390',
     projectId: 'unicalendar-b1e96',
     authDomain: 'unicalendar-b1e96.firebaseapp.com',
-    storageBucket: 'unicalendar-b1e96.firebasestorage.app',
+    storageBucket: 'unicalendar-b1e96.appspot.com',
   );
 }
